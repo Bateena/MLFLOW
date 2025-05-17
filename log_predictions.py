@@ -6,7 +6,7 @@ import json
 mlflow.set_tracking_uri("http://127.0.0.1:8080")
 mlflow.set_experiment("Heart Disease Monitoring")
 
-# Sample input (same as used earlier)
+# Sample input 
 inputs = [[
     52.0, 135.0, 212.0, 168.0, 1.0, 1.0, 0.0, 0.0, 1.0,
     1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,
