@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-# Load data (simulate new incoming batch)
+# Load data
 df = pd.read_csv("HeartDiseaseTrain-Test.csv")
 X = df.drop("target", axis=1)
 y = df["target"]
