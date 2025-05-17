@@ -7,7 +7,7 @@ client = mlflow.tracking.MlflowClient()
 
 # Replace with actual version number
 model_name = "HeartDiseaseModel"
-version = 2  # Change this if you registered multiple versions
+version = 2  # Change this if multiple versions were registered
 
 # Move model to 'Production'
 client.transition_model_version_stage(
